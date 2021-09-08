@@ -1,0 +1,81 @@
+.animate
+{
+    animation-name: rtl;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: ease-out;
+}
+@keyframes rtl {
+    from {transform: translateX(100px); opacity: 20%}
+    to {transform: translateX(0px); opacity: 100%}
+}
+.bg-new
+{
+    background-color: #d3f5ce;
+}
+.text-new
+{
+    color: #205374;
+}
+.range1
+{
+    position: relative;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #205374;
+    transform: rotate(-40deg);
+    top: 40px;
+    float: left;
+}
+.range2
+{
+    position: relative;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #27a09e;
+    transform: rotate(-40deg);
+    top: 40px;
+    float: left;
+}
+.range3
+{
+    position: relative;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #30ce88;
+    transform: rotate(-40deg);
+    top: 40px;
+    float: left;
+}
+.range4
+{
+    position: relative;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #7de393;
+    transform: rotate(-40deg);
+    top: 40px;
+    float: left;
+}
+.range5
+{
+    position: relative;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #d3f5ce;
+    transform: rotate(-40deg);
+    top: 40px;
+    float: left;
+}
